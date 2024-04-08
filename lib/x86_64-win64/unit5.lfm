@@ -1,0 +1,22 @@
+object Form5: TForm5
+  Left = 316
+  Height = 531
+  Top = 154
+  Width = 663
+  Caption = 'Form5'
+  ClientHeight = 0
+  ClientWidth = 0
+  DesignTimePPI = 120
+  LCLVersion = '3.0.0.1'
+  object StaticText1: TStaticText
+    Left = 144
+    Height = 304
+    Top = 88
+    Width = 360
+    Caption = 'Credits'#13#10'            ADD DATA HERE'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+end

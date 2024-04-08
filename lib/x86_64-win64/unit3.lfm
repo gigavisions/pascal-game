@@ -1,0 +1,23 @@
+object Form3: TForm3
+  Left = 710
+  Height = 680
+  Top = 156
+  Width = 1040
+  Caption = 'Form3'
+  ClientHeight = 0
+  ClientWidth = 0
+  DesignTimePPI = 120
+  OnClose = FormClose
+  LCLVersion = '3.0.0.1'
+  object ToggleBox1: TToggleBox
+    Left = 416
+    Height = 136
+    Top = 248
+    Width = 192
+    Caption = 'Dark Mode'
+    Checked = True
+    OnClick = ToggleBox1Click
+    State = cbChecked
+    TabOrder = 0
+  end
+end

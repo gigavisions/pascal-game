@@ -1,0 +1,9 @@
+object CreditsForm: TCreditsForm
+  Left = -9
+  Height = 991
+  Top = -9
+  Width = 1920
+  Caption = 'CreditsForm'
+  DesignTimePPI = 120
+  LCLVersion = '3.0.0.1'
+end

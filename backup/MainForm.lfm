@@ -1,0 +1,48 @@
+object Form1: TForm1
+  Left = 316
+  Height = 530
+  Top = 154
+  Width = 793
+  Caption = 'Form1'
+  ClientHeight = 530
+  ClientWidth = 793
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  LCLVersion = '3.0.0.1'
+  object PlayBtn: TButton
+    Left = 336
+    Height = 31
+    Top = 144
+    Width = 94
+    Caption = 'PLAY'
+    OnClick = PlayBtnClick
+    TabOrder = 0
+  end
+  object CreditsBtn: TButton
+    Left = 336
+    Height = 31
+    Top = 216
+    Width = 94
+    Caption = 'CREDITS'
+    OnClick = CreditsBtnClick
+    TabOrder = 1
+  end
+  object HelpBtn: TButton
+    Left = 336
+    Height = 31
+    Top = 288
+    Width = 94
+    Caption = 'HELP'
+    OnClick = HelpBtnClick
+    TabOrder = 2
+  end
+  object SettingsBtn: TButton
+    Left = 336
+    Height = 31
+    Top = 360
+    Width = 94
+    Caption = 'SETTINGS'
+    OnClick = SettingsBtnClick
+    TabOrder = 3
+  end
+end

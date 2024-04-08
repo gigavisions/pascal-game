@@ -1,0 +1,34 @@
+object HelpForm: THelpForm
+  Left = 521
+  Height = 560
+  Top = 193
+  Width = 945
+  Caption = 'HelpForm'
+  ClientHeight = 560
+  ClientWidth = 945
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  LCLVersion = '3.0.0.1'
+  object StaticText1: TStaticText
+    Left = 160
+    Height = 294
+    Top = 176
+    Width = 654
+    Caption = 'Use Left and Right Arrow Keys to move the space ship'#13#10#13#10'Use space key to shoot.'#13#10#13#10'Destroy all enemy ships in each levels to win the game'#13#10#13#10'There are three levels to play'
+    Font.Height = -25
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object StaticText2: TStaticText
+    Left = 400
+    Height = 78
+    Top = 72
+    Width = 136
+    Caption = ' HELP'
+    Font.Height = -42
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+end

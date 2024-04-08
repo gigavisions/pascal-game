@@ -1,0 +1,61 @@
+object MainForm: TMainForm
+  Left = 316
+  Height = 530
+  Top = 154
+  Width = 793
+  Caption = 'MainForm'
+  ClientHeight = 0
+  ClientWidth = 0
+  DesignTimePPI = 120
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  LCLVersion = '3.0.0.1'
+  object PlayBtn: TButton
+    Left = 784
+    Height = 79
+    Top = 200
+    Width = 230
+    Caption = 'PLAY'
+    Font.Height = -33
+    Font.Style = [fsBold]
+    OnClick = PlayBtnClick
+    ParentFont = False
+    TabOrder = 0
+  end
+  object CreditsBtn: TButton
+    Left = 784
+    Height = 87
+    Top = 368
+    Width = 230
+    Caption = 'CREDITS'
+    Font.Height = -33
+    Font.Style = [fsBold]
+    OnClick = CreditsBtnClick
+    ParentFont = False
+    TabOrder = 1
+  end
+  object HelpBtn: TButton
+    Left = 784
+    Height = 79
+    Top = 544
+    Width = 230
+    Caption = 'HELP'
+    Font.Height = -33
+    Font.Style = [fsBold]
+    OnClick = HelpBtnClick
+    ParentFont = False
+    TabOrder = 2
+  end
+  object SettingsBtn: TButton
+    Left = 784
+    Height = 80
+    Top = 704
+    Width = 230
+    Caption = 'SETTINGS'
+    Font.Height = -33
+    Font.Style = [fsBold]
+    OnClick = SettingsBtnClick
+    ParentFont = False
+    TabOrder = 3
+  end
+end

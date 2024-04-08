@@ -1,0 +1,23 @@
+object SettingsForm: TSettingsForm
+  Left = 316
+  Height = 670
+  Top = 155
+  Width = 1042
+  Caption = 'SettingsForm'
+  ClientHeight = 0
+  ClientWidth = 0
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  LCLVersion = '3.0.0.1'
+  object ToggleBox1: TToggleBox
+    Left = 888
+    Height = 128
+    Top = 424
+    Width = 246
+    Caption = 'Dark Mode'
+    Checked = True
+    OnClick = ToggleBox1Click
+    State = cbChecked
+    TabOrder = 0
+  end
+end

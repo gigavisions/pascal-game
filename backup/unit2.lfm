@@ -1,0 +1,27 @@
+object PlayForm: TPlayForm
+  Left = -9
+  Height = 991
+  Top = -9
+  Width = 1920
+  Caption = 'PlayForm'
+  DesignTimePPI = 120
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  OnKeyUp = FormKeyUp
+  LCLVersion = '3.0.0.1'
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 1
+    OnTimer = Timer1Timer
+    Left = 240
+    Top = 584
+  end
+  object Timer2: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = Timer2Timer
+    Left = 112
+    Top = 576
+  end
+end
